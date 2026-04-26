@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="css/comeau-reset.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/page.css">
-  <script src="js/progress.js" defer></script>
   <title>Samantha Turri | Web Strategist, Developer &amp; Leader</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
