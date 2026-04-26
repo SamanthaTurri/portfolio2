@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# IDE/editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# OS/temp
+tmp/
+temp/

@@ -1,0 +1,21 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#wrapper {
+  margin: 0 auto;
+}
+
+/* TODO */
+.debug {
+  margin: 2rem;
+}
+
+/* TODO - open the nav if we're on the home page */
+/* style something else when #primary-nav is present */
+/* body:has(#primary-nav) .some-other-element {
+  display: none;
+} */
