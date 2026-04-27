@@ -28,7 +28,10 @@
         </li>
 
         <li class="card-nav-item">
-          <a class="card exp-card" href="#" aria-label="Agency Experience: Goodsir" data-modal="modal-goodsir">
+          <a class="card exp-card" 
+            href="#" 
+            aria-label="Agency Experience: Goodsir" 
+            data-modal="modal-agency">
             <div class="card-header">
               <p class="org">Goodsir</p>
               <div class="pip" data-status="<?php echo getPipStatus('goodsir.php') ?>" aria-hidden="true"></div>
@@ -44,7 +47,10 @@
         </li>
 
         <li class="card-nav-item">
-          <a class="card exp-card" href="/portfolio2/bcit.php" aria-label="Education: BCIT Front-End Web Developer Program">
+          <a class="card exp-card" 
+            href="#" 
+            aria-label="Education: BCIT Front-End Web Developer Program" 
+            data-modal="modal-education">
             <div class="card-header">
               <p class="org">BCIT</p>
               <div class="pip" data-status="<?php echo getPipStatus('bcit.php') ?>" aria-hidden="true"></div>
@@ -60,7 +66,10 @@
         </li>
 
         <li class="card-nav-item">
-          <a class="card exp-card" href="/portfolio2/human.php" aria-label="About me as a human being">
+          <a class="card exp-card" 
+            href="#" 
+            aria-label="About me as a human being" 
+            data-modal="modal-human">
             <div class="card-header">
               <p class="org">British Columbia</p>
               <div class="pip" data-status="<?php echo getPipStatus('human.php') ?>" aria-hidden="true"></div>
@@ -83,7 +92,10 @@
       <h2>Work</h2>
       <ul class="card-nav">
         <li class="card-nav-item">
-          <a class="card work-card" href="/portfolio2/vancity.php" aria-label="E-Commerce event sales project">
+          <a class="card work-card" 
+            href="#" 
+            aria-label="E-Commerce event sales project" 
+            data-modal="modal-vancity">
             <div class="card-header">
               <p class="org">Vancity Food Tours</p>
               <div class="pip" data-status="<?php echo getPipStatus('vancity.php') ?>" aria-hidden="true"></div>

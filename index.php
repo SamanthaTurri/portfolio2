@@ -16,11 +16,12 @@
   <script type="module" src="js/modals.js"></script>
 </head>
 <body class="debug">
-  <pre class="session-debug"><?php // print_r($_SESSION); ?></pre>
+  <pre class="session-debug"><?php // print_r($_SESSION); ?></pre> // TODO
   <div id="wrapper">
   <?php require_once 'inc/nav.php'; ?>
   </div>
   <?php require_once 'modals/enterprise.php'; ?>
+  <?php require_once 'modals/agency.php'; ?>
 </body>
 </html>
 
