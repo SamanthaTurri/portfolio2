@@ -13,7 +13,7 @@ dialog::backdrop {
 }
 
 .modal-content {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .modal-close {
@@ -42,6 +42,7 @@ dialog::backdrop {
 .modal-note-text {
   color: slategray;
   font-style: italic;
+  letter-spacing: 0.03em;
 }
 
 .modal-item {
@@ -69,4 +70,8 @@ dialog::backdrop {
       transform: translateY(0);
     }
   }
+}
+
+body:has(dialog[open]) {
+  overflow: hidden;
 }
