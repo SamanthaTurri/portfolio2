@@ -20,7 +20,7 @@
   <div id="wrapper">
   <?php require_once 'inc/nav.php'; ?>
   </div>
-  <?php require_once 'inc/enterprise.php'; ?>
+  <?php require_once 'modals/enterprise.php'; ?>
 </body>
 </html>
 
