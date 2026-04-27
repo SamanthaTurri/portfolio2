@@ -1,6 +1,6 @@
 <dialog id="modal-enterprise" aria-labelledby="modal-enterprise-title" aria-describedby="modal-enterprise-desc">
     <article class="modal-content">
-        <h2 id="modal-enterprise-title">Shopify</h2>
+        <h2 id="modal-enterprise-title">Agency Experience - Shopify</h2>
         <div id="modal-enterprise-desc">
             <p class="modal-intro-text">8 years experience at Shopify, a software as a service company providing ecommerce technology for brands around the world.</p>
             <div class="modal-item">
