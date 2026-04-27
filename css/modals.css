@@ -17,17 +17,12 @@ dialog::backdrop {
 }
 
 .modal-close {
-  position: absolute;
-  bottom: 2rem;
-  left: 2rem;
-  right: 2rem;
-  background: none;
   border: 2px solid slategray;
   font-size: 1.25rem;
   cursor: pointer;
-  line-height: 1;
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
+  width: 100%;
 }
 
 .modal-close:hover {
@@ -42,6 +37,11 @@ dialog::backdrop {
 
 .modal-intro-text {
   margin-bottom: 1rem;
+}
+
+.modal-note-text {
+  color: slategray;
+  font-style: italic;
 }
 
 .modal-item {
