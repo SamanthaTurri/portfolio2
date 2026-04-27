@@ -8,17 +8,20 @@
   <link rel="stylesheet" href="css/comeau-reset.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/page.css">
-  <title>Samantha Turri | Web Strategist, Developer &amp; Leader</title>
-
+  <link rel="stylesheet" href="css/modals.css">
+  <title>Samantha Turri | Web Strategist & Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script type="module" src="js/modals.js"></script>
 </head>
 <body class="debug">
-  <pre class="session-debug"><?php print_r($_SESSION); ?></pre>
+  <pre class="session-debug"><?php // print_r($_SESSION); ?></pre>
   <div id="wrapper">
   <?php require_once 'inc/nav.php'; ?>
   </div>
+  <?php require_once 'inc/enterprise.php'; ?>
+</body>
 </html>
 
 

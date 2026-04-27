@@ -1,11 +1,17 @@
 
+<!-- TODO may need to add javascript to live refresh pip status between page loads -->
+
 <nav id="primary-nav" aria-label="Primary">
   <section class="nav-section">
     <div class="nav-row">
       <h2>About</h2>
       <ul class="card-nav">
         <li class="card-nav-item">
-          <a class="card exp-card" href="/portfolio2/shopify.php" aria-label="Enterprise Experience: Shopify">
+          <a class="card exp-card" 
+            href="#"
+            aria-label="Enterprise Experience: Shopify"
+            aria-haspopup="dialog"
+            data-modal="modal-enterprise">
             <div class="card-header">
               <p class="org">Shopify</p>
               <div class="pip" data-status="<?php echo getPipStatus('shopify.php') ?>" aria-hidden="true"></div>
@@ -22,7 +28,7 @@
         </li>
 
         <li class="card-nav-item">
-          <a class="card exp-card" href="/portfolio2/goodsir.php" aria-label="Agency Experience: Goodsir">
+          <a class="card exp-card" href="#" aria-label="Agency Experience: Goodsir" data-modal="modal-goodsir">
             <div class="card-header">
               <p class="org">Goodsir</p>
               <div class="pip" data-status="<?php echo getPipStatus('goodsir.php') ?>" aria-hidden="true"></div>
