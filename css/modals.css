@@ -14,6 +14,7 @@ dialog::backdrop {
 
 .modal-content {
   padding-bottom: 2rem;
+  text-wrap: pretty;
 }
 
 .modal-close {
