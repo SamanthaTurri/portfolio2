@@ -23,6 +23,7 @@
   <?php require_once 'modals/enterprise.php'; ?>
   <?php require_once 'modals/agency.php'; ?>
   <?php require_once 'modals/education.php'; ?>
+  <?php require_once 'modals/human.php'; ?>
 </body>
 </html>
 
