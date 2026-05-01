@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Close on close button
-  document.querySelectorAll(".modal-close").forEach((btn) => {
+  document.querySelectorAll(".close").forEach((btn) => {
     btn.addEventListener("click", () => {
       btn.closest("dialog").close();
     });
