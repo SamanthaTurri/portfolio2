@@ -28,6 +28,6 @@
                     </ul>
             </div>
         </div>
-        <button class="modal-close" aria-label="Close dialog">Close</button>
+        <button class="btn close" aria-label="Close dialog">Close</button>
     </article>
 </dialog>

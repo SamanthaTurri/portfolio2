@@ -30,6 +30,6 @@
                 <p class="modal-note-text">Goodsir was previously named Artistech Newmedia.</p>
             </div>
         </div>
-        <button class="modal-close" aria-label="Close dialog">Close</button>
+        <button class="btn close" aria-label="Close dialog">Close</button>
     </article>
 </dialog>

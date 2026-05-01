@@ -1,10 +1,14 @@
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+
 dialog {
-  width: min(100%, 48rem);
-  max-height: 90vh;
+  margin: auto;
+  width: min(90%, 48rem);
+  max-height: 90dvh;
   overflow-y: auto;
   padding: 2rem;
   border: 1px solid slategray;
-  position: relative; /* establishes positioning context for close button */
 }
 
 dialog::backdrop {
@@ -15,25 +19,6 @@ dialog::backdrop {
 .modal-content {
   padding-bottom: 2rem;
   text-wrap: pretty;
-}
-
-.modal-close {
-  border: 2px solid slategray;
-  font-size: 1.25rem;
-  cursor: pointer;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  width: 100%;
-}
-
-.modal-close:hover {
-  background-color: slategray;
-  color: white;
-}
-
-.modal-close:focus-visible {
-  outline: 2px solid #2563eb; /* TODO */
-  outline-offset: 2px;
 }
 
 .modal-intro-text {
@@ -51,6 +36,32 @@ dialog::backdrop {
   ul {
     padding-inline-start: 2rem;
   }
+}
+
+.btn {
+  background-color: lightgray;
+  border: 2px solid slategray;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  user-select: none;
+  width: 100%;
+  margin-bottom: 1rem;
+
+  &:hover {
+    background-color: slategray;
+    color: white;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #2563eb; /* TODO */
+    outline-offset: 2px;
+  }
+}
+
+.close {
+  background-color: green;
 }
 
 /* TODO */
@@ -74,8 +85,4 @@ dialog::backdrop {
       transform: translateY(0);
     }
   }
-}
-
-body:has(dialog[open]) {
-  overflow: hidden;
 }
