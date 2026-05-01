@@ -19,6 +19,10 @@ dialog::backdrop {
 .modal-content {
   padding-bottom: 2rem;
   text-wrap: pretty;
+
+  h3 {
+    margin-bottom: 0.5rem;
+  }
 }
 
 .modal-intro-text {
@@ -38,37 +42,76 @@ dialog::backdrop {
   }
 }
 
+ul.modal-tools-list {
+  padding-inline-start: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  li {
+    list-style: none;
+    border: 1px solid #22221c; /* TODO */
+    padding: 0.5rem;
+    border-radius: 12px;
+    min-width: 3rem;
+    text-align: center;
+    font-size: 0.7rem;
+    margin: 0;
+  }
+}
+
 .btn {
-  background-color: lightgray;
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
   border: 2px solid slategray;
-  font-size: 1.25rem;
-  cursor: pointer;
-  padding: 0.25rem 0.5rem;
   border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
   user-select: none;
+  text-decoration: none; /* removes underline from <a> */
+  color: inherit; /* prevents <a> from using browser link colour */
+  background: none;
+  font-family: inherit; /* prevents <button> from using system font */
+  text-align: center;
   width: 100%;
-  margin-bottom: 1rem;
-
-  &:hover {
-    background-color: slategray;
-    color: white;
-  }
-
-  &:focus-visible {
-    outline: 2px solid #2563eb; /* TODO */
-    outline-offset: 2px;
-  }
+  margin: 0.5rem 0;
 }
 
-.close {
-  background-color: green;
+.btn:hover {
+  background-color: slategray;
+  color: white;
 }
 
-/* TODO */
-/* img {
-  max-width: min(25%, 10rem);
-  float: right;
-} */
+.btn:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+a.btn::after {
+  /* // make the content below an arrow pointing up and right */
+  content: "↗";
+  margin-left: 0.5rem;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+button.close::after {
+  /* make the content below an x symbol */
+  content: "✖";
+  margin-left: 0.5rem;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+details > summary.btn::after {
+  content: "▸";
+  margin-left: 0.5rem;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+details[open] > summary.btn::after {
+  transform: rotate(90deg);
+}
 
 @media (prefers-reduced-motion: no-preference) {
   dialog[open] {
