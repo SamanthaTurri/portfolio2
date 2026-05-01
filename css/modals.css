@@ -67,10 +67,10 @@ ul.modal-tools-list {
   cursor: pointer;
   font-size: 0.9rem;
   user-select: none;
-  text-decoration: none; /* removes underline from <a> */
-  color: inherit; /* prevents <a> from using browser link colour */
+  text-decoration: none;
+  color: inherit;
   background: none;
-  font-family: inherit; /* prevents <button> from using system font */
+  font-family: inherit;
   text-align: center;
   width: 100%;
   margin: 0.5rem 0;
@@ -87,7 +87,6 @@ ul.modal-tools-list {
 }
 
 a.btn::after {
-  /* // make the content below an arrow pointing up and right */
   content: "↗";
   margin-left: 0.5rem;
   display: inline-block;
@@ -95,7 +94,6 @@ a.btn::after {
 }
 
 button.close::after {
-  /* make the content below an x symbol */
   content: "✖";
   margin-left: 0.5rem;
   display: inline-block;
