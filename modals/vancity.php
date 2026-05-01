@@ -12,7 +12,7 @@
                     controls
                     loop
                     playsinline
-                    aria-label="This video shows a demo of the 24F video database project. It shows a page of movies to interact with, favoriting one of the movies, and then unfavoriting it.">
+                    aria-label="This video shows a demo of the 24F video database project. It shows a page of movies to interact with, favouriting one of the movies, and then unfavouriting it.">
                 </video>
             </div>
             <details>
