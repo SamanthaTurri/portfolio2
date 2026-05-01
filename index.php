@@ -24,6 +24,7 @@
   <?php require_once 'modals/agency.php'; ?>
   <?php require_once 'modals/education.php'; ?>
   <?php require_once 'modals/human.php'; ?>
+  <?php require_once 'modals/vancity.php'; ?>
 </body>
 </html>
 

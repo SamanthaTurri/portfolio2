@@ -1,0 +1,48 @@
+<dialog id="modal-vancity" aria-labelledby="modal-vancity-title" aria-describedby="modal-vancity-desc">
+    <article class="modal-content">
+        <h2 id="modal-vancity-title">Vancity Food Tours</h2>
+        <div id="modal-vancity-desc">
+            <h3>Objective</h3>
+            <p class="modal-intro-text">Create a custom WooCommerce site that enables the imaginary client to sell tickets to food tours.</p>
+            <div class="modal-item">
+                <video
+                    src="vid/24f.webm"
+                    muted
+                    autoplay
+                    controls
+                    loop
+                    playsinline
+                    aria-label="This video shows a demo of the 24F video database project. It shows a page of movies to interact with, favoriting one of the movies, and then unfavoriting it.">
+                </video>
+            </div>
+            <details>
+                <summary class="btn">Project details</summary>
+                <div class="modal-item">
+                    <h3>Tools</h3>
+                        <ul class="modal-tools-list">
+                            <li>WooCommerce</li>
+                            <li>Advanced Custom Fields</li>
+                            <li>Leaflet</li>
+                        </ul>
+                </div>
+                
+                <div class="modal-item">
+                    <h3>Collaborators</h3>
+                    <p>I had the pleasure of working with <a href="https://emimi.ca/">Emily Huang</a> and <a href="https://mabebymichelle.com/">Michelle Nguyen</a> on this project. They focused on design and front-end styling, while I focused on project management, technical planning, and PHP development.</p>
+                </div>
+    
+                <div class="modal-item">
+                    <h3>Challenge</h3>
+                    <p>We wanted to minimize the burden of maintaining the same content across multiple pages. This project uses Advanced Custom Fields Pro’s features of options pages, field groups and custom blocks extensively. The client can modify key content in a streamlined, form-like experience. Nearly all of the front-end is our custom blocks placed within a skeleton block theme template.</p>
+                </div>
+                
+                <div class="modal-item">
+                    <h3>Takeaways</h3>
+                    <p>ACF Pro is a must-have tool for developing custom WordPress sites. Minimize the complexity of WordPress and WooCommerce as much as possible for clients.</p>
+                </div>
+            </details>
+        </div>
+        <a href="https://vancityfoodtours.bcitwebdeveloper.ca/" target="_blank" class="ext btn">View demo site</a>
+        <button class="btn close" aria-label="Close dialog">Close</button>
+    </article>
+</dialog>
