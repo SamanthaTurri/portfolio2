@@ -111,6 +111,24 @@
           </div>
           </a>
         </li>
+        <li class="card-nav-item">
+          <a class="card work-card" 
+            href="#" 
+            aria-label="Design brief + wireframes" 
+            data-modal="modal-btc">
+            <div class="card-header">
+              <p class="org">Blind Tiger Comedy</p>
+              <div class="pip" data-status="<?php echo getPipStatus('btc.php') ?>" aria-hidden="true"></div>
+            </div>
+            <p class="card-title">Design brief + wireframes</p>
+            <div class="card-body">
+              <div class="roles">
+                <p class="role">UX Design</p>
+              </div>
+              <p class="desc">Strategy, research, planning, wireframing</p>
+          </div>
+          </a>
+        </li>
       </ul>
     </div>
   </section>
