@@ -19,7 +19,8 @@
                         type="image/webp">
                     <img
                         src="img/24f/540p.png"
-                        alt="The user interface for 24F, which includes cards representing movies which can be added to a favourites list.">
+                        alt="The user interface for 24F, which includes cards representing movies which can be added to a favourites list."
+                        loading="lazy">
                 </picture>
             </div>
             <details>

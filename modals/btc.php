@@ -19,7 +19,8 @@
                         type="image/webp">
                     <img
                         src="img/btc/540p.png"
-                        alt="A portion of the design brief PDF for Blind Tiger Comedy, including a user persona.">
+                        alt="A portion of the design brief PDF for Blind Tiger Comedy, including a user persona."
+                        loading="lazy">
                 </picture>
             </div>
         <div class="modal-item">
