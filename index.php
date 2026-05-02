@@ -27,6 +27,7 @@
   <?php require_once 'modals/vancity.php'; ?>
   <?php require_once 'modals/btc.php'; ?>
   <?php require_once 'modals/24f.php'; ?>
+  <?php require_once 'modals/portfolio.php'; ?>
 </body>
 </html>
 

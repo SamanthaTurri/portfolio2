@@ -147,6 +147,24 @@
           </div>
           </a>
         </li>
+        <li class="card-nav-item">
+          <a class="card work-card" 
+            href="#" 
+            aria-label="Portfolio" 
+            data-modal="modal-portfolio">
+            <div class="card-header">
+              <p class="org">Samantha Turri</p>
+              <div class="pip" data-status="<?php echo getPipStatus('portfolio.php') ?>" aria-hidden="true"></div>
+            </div>
+            <p class="card-title">Portfolio</p>
+            <div class="card-body">
+              <div class="roles">
+                <p class="role">Design + Development</p>
+              </div>
+              <p class="desc">Responsive design, front-end development</p>
+          </div>
+          </a>
+        </li>
       </ul>
     </div>
   </section>
