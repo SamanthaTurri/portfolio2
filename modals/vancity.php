@@ -4,16 +4,24 @@
         <div id="modal-vancity-desc">
             <h3>Objective</h3>
             <p class="modal-intro-text">Create a custom WooCommerce site that enables the imaginary client to sell tickets to food tours.</p>
-            <div class="modal-item">
-                <video
-                    src="vid/24f.webm"
-                    muted
-                    autoplay
-                    controls
-                    loop
-                    playsinline
-                    aria-label="This video shows a demo of the 24F video database project. It shows a page of movies to interact with, favouriting one of the movies, and then unfavouriting it.">
-                </video>
+            <div class="modal-item border">
+            <picture>
+                <source
+                    srcset="img/vancity/1080p.webp"
+                    type="image/webp"
+                    media="(min-width: 1080px)">
+                <source
+                    srcset="img/vancity/720p.webp"
+                    type="image/webp"
+                    media="(min-width: 720px)">
+                <source
+                    srcset="img/vancity/540p.webp"
+                    type="image/webp">
+                <img
+                    src="img/vancity/540p.png"
+                    alt="A portion of the tours landing page on Vancity Food Tours including introductory text and cards linking to individual tours."
+                    loading="lazy">
+            </picture>
             </div>
             <details>
                 <summary class="btn">Project details</summary>
