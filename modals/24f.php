@@ -5,15 +5,22 @@
             <h3>Objective</h3>
             <p class="modal-intro-text">Original front-end design implemented in React with TMdB API integration and localStorage-based tracking of user favourites. Features a “MovieCard” component that is used in multiple views, presented in two distinct configurations via CSS.</p>
             <div class="modal-item">
-                <video
-                    src="vid/24f.webm"
-                    muted
-                    autoplay
-                    controls
-                    loop
-                    playsinline
-                    aria-label="This video shows a demo of the 24F video database project. It shows a page of movies to interact with, favouriting one of the movies, and then unfavouriting it.">
-                </video>
+                <picture>
+                    <source
+                        srcset="img/24f/1080p.webp"
+                        type="image/webp"
+                        media="(min-width: 1080px)">
+                    <source
+                        srcset="img/24f/720p.webp"
+                        type="image/webp"
+                        media="(min-width: 720px)">
+                    <source
+                        srcset="img/24f/540p.webp"
+                        type="image/webp">
+                    <img
+                        src="img/24f/540p.png"
+                        alt="The user interface for 24F, which includes cards representing movies which can be added to a favourites list.">
+                </picture>
             </div>
             <details>
                 <summary class="btn">Project details</summary>
