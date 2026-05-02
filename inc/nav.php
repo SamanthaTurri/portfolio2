@@ -129,6 +129,24 @@
           </div>
           </a>
         </li>
+        <li class="card-nav-item">
+          <a class="card work-card" 
+            href="#" 
+            aria-label="Design brief + wireframes" 
+            data-modal="modal-24f">
+            <div class="card-header">
+              <p class="org">24F</p>
+              <div class="pip" data-status="<?php echo getPipStatus('24f.php') ?>" aria-hidden="true"></div>
+            </div>
+            <p class="card-title">API-driven movie db</p>
+            <div class="card-body">
+              <div class="roles">
+                <p class="role">Full-Stack</p>
+              </div>
+              <p class="desc">Graphic design, API integration, React development</p>
+          </div>
+          </a>
+        </li>
       </ul>
     </div>
   </section>
