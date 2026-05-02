@@ -5,15 +5,22 @@
             <h3>Objective</h3>
             <p class="modal-intro-text">Write a strategic website project plan for a local business, including an original user persona, information architecture and wireframes.</p>
             <div class="modal-item">
-                <video
-                    src="vid/btc.webm"
-                    muted
-                    autoplay
-                    controls
-                    loop
-                    playsinline
-                    aria-label="This video pans through excerpts of the Blind Tiger Comedy design brief. It shows a list of user tasks for the site, a user persona and scenario, and a sitemap.">
-                </video>
+                <picture>
+                    <source
+                        srcset="img/btc/1080p.webp"
+                        type="image/webp"
+                        media="(min-width: 1080px)">
+                    <source
+                        srcset="img/btc/720p.webp"
+                        type="image/webp"
+                        media="(min-width: 720px)">
+                    <source
+                        srcset="img/btc/540p.webp"
+                        type="image/webp">
+                    <img
+                        src="img/btc/540p.png"
+                        alt="A portion of the design brief PDF for Blind Tiger Comedy, including a user persona.">
+                </picture>
             </div>
         <div class="modal-item">
             <p class="modal-note-text">This work is an educational exercise for the BCIT Front-End Web Developer program. No professional engagement with Blind Tiger Comedy took place.</p>
