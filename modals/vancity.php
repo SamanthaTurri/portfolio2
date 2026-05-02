@@ -5,7 +5,7 @@
             <h3>Objective</h3>
             <p class="modal-intro-text">Create a custom WooCommerce site that enables the imaginary client to sell tickets to food tours.</p>
             <div class="modal-item">
-                <picture>
+                <picture class="screenshot">
                     <source
                         srcset="img/vancity/1080p.webp"
                         type="image/webp"

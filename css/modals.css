@@ -30,7 +30,6 @@ dialog::backdrop {
 }
 
 .modal-note-text {
-  color: slategray;
   font-style: italic;
   letter-spacing: 0.03em;
 }
@@ -39,6 +38,10 @@ dialog::backdrop {
   margin-bottom: 1rem;
   ul {
     padding-inline-start: 2rem;
+  }
+
+  picture.screenshot {
+    border: 1px solid slategray;
   }
 }
 
@@ -49,12 +52,11 @@ ul.modal-tools-list {
   gap: 0.5rem;
   li {
     list-style: none;
-    border: 1px solid #22221c; /* TODO */
+    border: 1px solid slategray;
     padding: 0.5rem;
     border-radius: 12px;
     min-width: 3rem;
     text-align: center;
-    font-size: 0.7rem;
     margin: 0;
   }
 }

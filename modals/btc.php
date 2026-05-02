@@ -5,7 +5,7 @@
             <h3>Objective</h3>
             <p class="modal-intro-text">Write a strategic website project plan for a local business, including an original user persona, information architecture and wireframes.</p>
             <div class="modal-item">
-                <picture>
+                <picture class="screenshot">
                     <source
                         srcset="img/btc/1080p.webp"
                         type="image/webp"

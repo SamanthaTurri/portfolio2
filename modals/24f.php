@@ -5,7 +5,7 @@
             <h3>Objective</h3>
             <p class="modal-intro-text">Original front-end design implemented in React with TMdB API integration and localStorage-based tracking of user favourites. Features a “MovieCard” component that is used in multiple views, presented in two distinct configurations via CSS.</p>
             <div class="modal-item">
-                <picture>
+                <picture class="screenshot">
                     <source
                         srcset="img/24f/1080p.webp"
                         type="image/webp"
