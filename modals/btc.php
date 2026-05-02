@@ -6,13 +6,13 @@
             <p class="modal-intro-text">Write a strategic website project plan for a local business, including an original user persona, information architecture and wireframes.</p>
             <div class="modal-item">
                 <video
-                    src="vid/24f.webm"
+                    src="vid/btc.webm"
                     muted
                     autoplay
                     controls
                     loop
                     playsinline
-                    aria-label="This video shows a demo of the 24F video database project. It shows a page of movies to interact with, favouriting one of the movies, and then unfavouriting it.">
+                    aria-label="This video pans through excerpts of the Blind Tiger Comedy design brief. It shows a list of user tasks for the site, a user persona and scenario, and a sitemap.">
                 </video>
             </div>
         <div class="modal-item">
