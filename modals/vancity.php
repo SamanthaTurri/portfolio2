@@ -28,7 +28,7 @@
                 
                 <div class="modal-item">
                     <h3>Collaborators</h3>
-                    <p>I had the pleasure of working with <a href="https://emimi.ca/">Emily Huang</a> and <a href="https://mabebymichelle.com/">Michelle Nguyen</a> on this project. They focused on design and front-end styling, while I focused on project management, technical planning, and PHP development.</p>
+                    <p>I had the pleasure of working with <a href="https://emimi.ca/"><span class="emily">Emily Huang</span></a> and <a href="https://mabebymichelle.com/"><span class="michelle">Michelle Nguyen</span></a> on this project. They focused on design and front-end styling, while I focused on project management, technical planning, and PHP development.</p>
                 </div>
     
                 <div class="modal-item">

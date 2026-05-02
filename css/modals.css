@@ -127,3 +127,27 @@ details[open] > summary.btn::after {
     }
   }
 }
+
+span.emily,
+span.michelle {
+  display: inline-flex;
+  gap: 0.25rem;
+}
+
+span.emily::after,
+span.michelle::after {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid slategray;
+  border-radius: 80px;
+  background-size: cover;
+}
+
+span.emily::after {
+  background-image: url("../img/collaborators/emily.png");
+}
+
+span.michelle::after {
+  background-image: url("../img/collaborators/michelle.png");
+}
