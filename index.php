@@ -15,11 +15,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <script type="module" src="js/modals.js"></script>
 </head>
-<body class="debug">
-  <pre class="session-debug"><?php // print_r($_SESSION); ?></pre>
-  <div id="wrapper">
+<body id="wrapper">
+  <pre class="session-debug"><?php // TODO print_r($_SESSION); ?></pre>
+  <?php require_once 'inc/header.php'; ?>
   <?php require_once 'inc/nav.php'; ?>
-  </div>
   <?php require_once 'modals/enterprise.php'; ?>
   <?php require_once 'modals/agency.php'; ?>
   <?php require_once 'modals/education.php'; ?>

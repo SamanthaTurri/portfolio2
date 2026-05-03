@@ -1,5 +1,4 @@
 #primary-nav {
-  width: min(100%, 72rem);
   display: flex;
   flex-direction: column;
   align-self: auto;

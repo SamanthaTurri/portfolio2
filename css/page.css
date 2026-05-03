@@ -7,7 +7,12 @@ body {
 }
 
 #wrapper {
-  margin: 0 auto;
+  width: min(100%, 72rem);
+}
+
+header {
+  margin: 2rem;
+  align-self: center;
 }
 
 /* TODO */
