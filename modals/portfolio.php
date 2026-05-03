@@ -6,23 +6,42 @@
             <p class="modal-intro-text">Replacing my 1.0 WordPress portfolio with a 2.0 static design.</p>
             <div class="modal-item">
                 <!-- TODO -->
-                <picture class="screenshot">
-                    <source
-                        srcset="img/portfolio/1080p.webp"
-                        type="image/webp"
-                        media="(min-width: 1080px)">
-                    <source
-                        srcset="img/portfolio/720p.webp"
-                        type="image/webp"
-                        media="(min-width: 720px)">
-                    <source
-                        srcset="img/portfolio/540p.webp"
-                        type="image/webp">
-                    <img
-                        src="img/portfolio/540p.png"
-                        alt="A portion of the tours landing page on portfolio Food Tours including introductory text and cards linking to individual tours."
-                        loading="lazy">
-                </picture>
+                <div class="crossfade">
+                    <picture class="screenshot">
+                        <source
+                            srcset="img/24f/1080p.webp"
+                            type="image/webp"
+                            media="(min-width: 1080px)">
+                        <source
+                            srcset="img/24f/720p.webp"
+                            type="image/webp"
+                            media="(min-width: 720px)">
+                        <source
+                            srcset="img/24f/540p.webp"
+                            type="image/webp">
+                        <img
+                            src="img/24f/540p.png"
+                            alt="A portion of the tours landing page on portfolio Food Tours including introductory text and cards linking to individual tours."
+                            loading="lazy">
+                    </picture>
+                    <picture class="screenshot">
+                        <source
+                            srcset="img/vancity/1080p.webp"
+                            type="image/webp"
+                            media="(min-width: 1080px)">
+                        <source
+                            srcset="img/vancity/720p.webp"
+                            type="image/webp"
+                            media="(min-width: 720px)">
+                        <source
+                            srcset="img/vancity/540p.webp"
+                            type="image/webp">
+                        <img
+                            src="img/vancity/540p.png"
+                            alt="A portion of the tours landing page on portfolio Food Tours including introductory text and cards linking to individual tours."
+                            loading="lazy">
+                    </picture>
+                </div>
             </div>
             <details>
                 <summary class="btn">Project details</summary>
@@ -47,7 +66,7 @@
 
                 <div class="modal-item">
                     <h3>Tech stack</h3>
-                    <p>This site leans heavily into vanilla (but modern) HTML and CSS with sprinklings of PHP and Javascript. The result is highly-performant; everything is a single page with <code>&lt;dialog&gt;</code> nodes for loading inner content. See the link to the repository below if you're curious about how it's built.</p>
+                    <p>This site leans heavily into modern HTML and CSS with sprinklings of PHP and Javascript. The result is highly-performant; everything is a single page with <code>&lt;dialog&gt;</code> nodes for loading inner content. See the link to the repository below if you're curious about how it's built.</p>
                 </div>
 
                 <div class="modal-item">
@@ -56,7 +75,7 @@
                     <ul>
                         <li><b>Research:</b> What base technology approaches and libraries might I use to accomplish a broad vision?</li>
                         <li><b>Boilerplate:</b> Saving time on grunt work coding, such as the Javascript that opens and closes these cards.</li>
-                        <li><b>Styling:</b> Generating and refactoring CSS based on my prompts, particularly when I didn't know how to achieve a specific outcome.</li>
+                        <li><b>Styling:</b> Generating and refactoring CSS based on my prompts, particularly when I didn't know how to achieve a specific outcome. (Like the animation playing above.)</li>
                     </ul>
                     <p>While LLM-assistance takes some of the satisfaction out of coding, it yields better, faster results.</p>
                 </div>

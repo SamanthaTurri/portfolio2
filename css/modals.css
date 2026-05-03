@@ -153,3 +153,80 @@ span.emily::after {
 span.michelle::after {
   background-image: url("../img/collaborators/michelle.png");
 }
+
+/* ... TODO crossfade prototype... */
+
+.crossfade {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.crossfade picture {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.crossfade picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .crossfade picture:nth-child(1) {
+    animation: crossfade-a 6s ease-in-out infinite;
+  }
+
+  .crossfade picture:nth-child(2) {
+    animation: crossfade-b 6s ease-in-out infinite;
+  }
+
+  @keyframes crossfade-a {
+    0% {
+      opacity: 1;
+    } /* visible */
+    40% {
+      opacity: 1;
+    } /* hold */
+    50% {
+      opacity: 0;
+    } /* fade out */
+    90% {
+      opacity: 0;
+    } /* wait */
+    100% {
+      opacity: 1;
+    } /* fade back in */
+  }
+
+  @keyframes crossfade-b {
+    0% {
+      opacity: 0;
+    } /* hidden */
+    40% {
+      opacity: 0;
+    } /* wait */
+    50% {
+      opacity: 1;
+    } /* fade in */
+    90% {
+      opacity: 1;
+    } /* hold */
+    100% {
+      opacity: 0;
+    } /* fade back out */
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .crossfade picture:nth-child(2) {
+    display: none;
+  }
+  .crossfade picture {
+    position: static;
+    opacity: 1;
+  }
+}
