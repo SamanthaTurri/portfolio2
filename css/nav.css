@@ -7,7 +7,8 @@
 .nav-row {
   display: grid;
   grid-template-columns: repeat(auto-fill, 16.25rem);
-  justify-content: center;
+
+  padding: 0 2rem;
   gap: 1rem;
   margin-bottom: 2rem;
   width: 100%;
