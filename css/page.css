@@ -10,9 +10,9 @@ body {
   width: min(100%, 72rem);
 }
 
-header {
+header,
+footer {
   margin: 2rem;
-  align-self: center;
 }
 
 /* TODO */
