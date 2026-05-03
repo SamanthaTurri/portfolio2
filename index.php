@@ -15,19 +15,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <script type="module" src="js/modals.js"></script>
 </head>
-<body id="wrapper">
+<body>
+  <div id="wrapper">
   <pre class="session-debug"><?php // TODO print_r($_SESSION); ?></pre>
-  <?php require_once 'inc/header.php'; ?>
-  <?php require_once 'inc/nav.php'; ?>
-  <?php require_once 'inc/footer.php'; ?>
-  <?php require_once 'modals/enterprise.php'; ?>
-  <?php require_once 'modals/agency.php'; ?>
-  <?php require_once 'modals/education.php'; ?>
-  <?php require_once 'modals/human.php'; ?>
-  <?php require_once 'modals/vancity.php'; ?>
-  <?php require_once 'modals/btc.php'; ?>
-  <?php require_once 'modals/24f.php'; ?>
-  <?php require_once 'modals/portfolio.php'; ?>
+  <?php
+    require_once 'inc/header.php';
+    require_once 'inc/nav.php';
+    require_once 'inc/footer.php';
+    require_once 'modals/enterprise.php';
+    require_once 'modals/agency.php';
+    require_once 'modals/education.php';
+    require_once 'modals/human.php'; 
+    require_once 'modals/vancity.php';
+    require_once 'modals/btc.php'; 
+    require_once 'modals/24f.php'; 
+    require_once 'modals/portfolio.php';
+  ?>
+  </div>
 </body>
 </html>
 
