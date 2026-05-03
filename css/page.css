@@ -12,7 +12,37 @@ body {
 
 header,
 footer {
-  margin: 2rem;
+  background: repeating-radial-gradient(circle, #26547c, #ef476f);
+  background-clip: text;
+  padding: 2rem;
+}
+
+#header-content {
+  h1 {
+    color: transparent;
+    font-weight: 1000;
+    font-size: max(3rem, 6dvw);
+  }
+
+  p.title {
+    color: transparent;
+    font-weight: 700;
+    font-size: max(2rem, 4dvw);
+  }
+
+  p.tag {
+    color: transparent;
+    font-weight: 500;
+    font-size: max(1.5rem, 2dvw);
+  }
+}
+
+footer {
+  padding: 2rem;
+  p {
+    font-weight: 300;
+    font-size: 1rem;
+  }
 }
 
 /* TODO */
