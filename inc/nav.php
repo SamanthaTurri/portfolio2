@@ -168,4 +168,34 @@
       </ul>
     </div>
   </section>
+
+  <section class="nav-section">
+    <div class="nav-row">
+      <h2>Contact</h2>
+      <ul class="card-nav">
+        <li class="card-nav-item">
+          <a class="card ext" 
+            href="https://github.com/samanthaturri"
+            target="_blank" 
+            aria-label="Samantha's GitHub profile"> 
+            <div class="ext-flex">
+              <p>GitHub</p>
+              <p>↗</p>
+            </div>
+          </a>
+        </li>
+        <li class="card-nav-item">
+          <a class="card ext" 
+            href="https://www.linkedin.com/in/samturri"
+            target="_blank" 
+            aria-label="Samantha's LinkedIn profile"> 
+            <div class="ext-flex">
+              <p>LinkedIn</p>
+              <p>↗</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
 </nav>
