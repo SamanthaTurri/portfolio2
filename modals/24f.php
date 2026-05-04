@@ -45,7 +45,7 @@
                 </div>
             </details>
         </div>
-        <a href="https://samanthaturri.com/24f/" target="_blank" class="ext btn">View demo site</a>
+        <a href="https://samanthaturri.com/24f/" target="_blank" class="btn">View demo site</a>
         <button class="btn close" aria-label="Close dialog">Close</button>
     </article>
 </dialog>

@@ -48,8 +48,8 @@
                 </div>
             </details>
         </div>
-        <a href="pdf/samantha-turri-blind-tiger-comedy-design-brief.pdf" target="_blank" class="ext btn">View design brief</a>
-        <a href="pdf/samantha-turri-blind-tiger-comedy-wireframes.pdf" target="_blank" class="ext btn">View wireframes</a>
+        <a href="pdf/samantha-turri-blind-tiger-comedy-design-brief.pdf" target="_blank" class="btn">View design brief</a>
+        <a href="pdf/samantha-turri-blind-tiger-comedy-wireframes.pdf" target="_blank" class="btn">View wireframes</a>
         <button class="btn close" aria-label="Close dialog">Close</button>
     </article>
 </dialog>

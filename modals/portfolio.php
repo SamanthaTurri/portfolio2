@@ -86,7 +86,7 @@
                 </div>
             </details>
         </div>
-        <a href="https://github.com/SamanthaTurri/portfolio2" target="_blank" class="ext btn">GitHub repository</a>
+        <a href="https://github.com/SamanthaTurri/portfolio2" target="_blank" class="btn">GitHub repository</a>
         <button class="btn close" aria-label="Close dialog">Close</button>
     </article>
 </dialog>
