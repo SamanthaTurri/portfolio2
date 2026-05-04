@@ -9,36 +9,36 @@
                 <div class="crossfade">
                     <picture class="screenshot">
                         <source
-                            srcset="img/24f/1080p.webp"
+                            srcset="img/portfolio1/1080p.webp"
                             type="image/webp"
                             media="(min-width: 1080px)">
                         <source
-                            srcset="img/24f/720p.webp"
+                            srcset="img/portfolio1/720p.webp"
                             type="image/webp"
                             media="(min-width: 720px)">
                         <source
-                            srcset="img/24f/540p.webp"
+                            srcset="img/portfolio1/540p.webp"
                             type="image/webp">
                         <img
-                            src="img/24f/540p.png"
-                            alt="A portion of the tours landing page on portfolio Food Tours including introductory text and cards linking to individual tours."
+                            src="img/portfolio1/540p.png"
+                            alt="The landing page of my original portfolio site. It features a left-aligned floating navigation bar. All of the site's content is inline within a single page."
                             loading="lazy">
                     </picture>
                     <picture class="screenshot">
                         <source
-                            srcset="img/vancity/1080p.webp"
+                            srcset="img/portfolio2/1080p.webp"
                             type="image/webp"
                             media="(min-width: 1080px)">
                         <source
-                            srcset="img/vancity/720p.webp"
+                            srcset="img/portfolio2/720p.webp"
                             type="image/webp"
                             media="(min-width: 720px)">
                         <source
-                            srcset="img/vancity/540p.webp"
+                            srcset="img/portfolio2/540p.webp"
                             type="image/webp">
                         <img
-                            src="img/vancity/540p.png"
-                            alt="A portion of the tours landing page on portfolio Food Tours including introductory text and cards linking to individual tours."
+                            src="img/portfolio2/540p.png"
+                            alt="The landing page of my new portfolio site. The navigation is card based, and each card opens a dialog view with detailed information."
                             loading="lazy">
                     </picture>
                 </div>
