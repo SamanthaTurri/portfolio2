@@ -13,3 +13,7 @@ logs/
 # OS/temp
 tmp/
 temp/
+
+# portfolio images
+img/portfolio1/*
+img/portfolio2/*
