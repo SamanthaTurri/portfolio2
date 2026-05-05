@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!modal) return;
       modal.showModal(); // native dialog method, handles focus + aria
       modal.focus(); // ensure focus is set to modal for screen readers
+      modal.scrollTop = 0; // reset scroll position
     });
   });
 
