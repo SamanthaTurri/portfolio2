@@ -14,7 +14,7 @@
             data-modal="modal-enterprise">
             <div class="card-header">
               <p class="org">Shopify</p>
-              <div class="pip" data-status="active" aria-hidden="true"></div>
+              <div id="pip-enterprise" class="pip" data-status="active" aria-hidden="true"></div>
             </div>
             <p class="card-title">Enterprise experience</p>
             <div class="card-body">              
@@ -34,7 +34,7 @@
             data-modal="modal-agency">
             <div class="card-header">
               <p class="org">Goodsir</p>
-              <div class="pip" data-status="active" aria-hidden="true"></div>
+              <div id="pip-agency" class="pip" data-status="active" aria-hidden="true"></div>
             </div>
             <p class="card-title">Agency experience</p>
             <div class="card-body">
@@ -53,7 +53,7 @@
             data-modal="modal-education">
             <div class="card-header">
               <p class="org">BCIT</p>
-              <div class="pip" data-status="active" aria-hidden="true"></div>
+              <div id="pip-education" class="pip" data-status="active" aria-hidden="true"></div>
             </div>
             <p class="card-title">Graduate</p>
             <div class="card-body">
@@ -72,7 +72,7 @@
             data-modal="modal-human">
             <div class="card-header">
               <p class="org">British Columbia</p>
-              <div class="pip" data-status="active" aria-hidden="true"></div>
+              <div id="pip-human" class="pip" data-status="active" aria-hidden="true"></div>
             </div>
             <p class="card-title">Human being</p>
             <div class="card-body">
@@ -98,7 +98,7 @@
             data-modal="modal-vancity">
             <div class="card-header">
               <p class="org">Vancity Food Tours</p>
-              <div class="pip" data-status="active" aria-hidden="true"></div>
+              <div id="pip-vancity" class="pip" data-status="active" aria-hidden="true"></div>
             </div>
             <p class="card-title">E-Commerce event sales</p>
             <div class="card-body">
@@ -118,7 +118,7 @@
             data-modal="modal-btc">
             <div class="card-header">
               <p class="org">Blind Tiger Comedy</p>
-              <div class="pip" data-status="active" aria-hidden="true"></div>
+              <div id="pip-btc" class="pip" data-status="active" aria-hidden="true"></div>
             </div>
             <p class="card-title">Design brief + wireframes</p>
             <div class="card-body">
@@ -136,7 +136,7 @@
             data-modal="modal-24f">
             <div class="card-header">
               <p class="org">24F</p>
-              <div class="pip" data-status="active" aria-hidden="true"></div>
+              <div id="pip-24f" class="pip" data-status="active" aria-hidden="true"></div>
             </div>
             <p class="card-title">API-driven movie db</p>
             <div class="card-body">
@@ -154,7 +154,7 @@
             data-modal="modal-portfolio">
             <div class="card-header">
               <p class="org">Samantha Turri</p>
-              <div class="pip" data-status="active" aria-hidden="true"></div>
+              <div id="pip-portfolio" class="pip" data-status="active" aria-hidden="true"></div>
             </div>
             <p class="card-title">Portfolio</p>
             <div class="card-body">
