@@ -17,7 +17,6 @@
 </head>
 <body>
   <div id="wrapper">
-  <pre class="session-debug"><?php // TODO print_r($_SESSION); ?></pre>
   <?php
     require_once 'inc/header.php';
     require_once 'inc/nav.php';

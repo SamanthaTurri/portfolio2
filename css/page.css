@@ -44,14 +44,3 @@ footer {
     font-size: 1rem;
   }
 }
-
-/* TODO */
-.debug {
-  margin: 2rem;
-}
-
-/* TODO - open the nav if we're on the home page */
-/* style something else when #primary-nav is present */
-/* body:has(#primary-nav) .some-other-element {
-  display: none;
-} */

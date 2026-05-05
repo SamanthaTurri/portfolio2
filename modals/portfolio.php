@@ -5,7 +5,6 @@
             <h3>Objective</h3>
             <p class="modal-intro-text">Replacing my 1.0 WordPress portfolio with a 2.0 static design.</p>
             <div class="modal-item">
-                <!-- TODO -->
                 <div class="crossfade">
                     <picture class="screenshot">
                         <source

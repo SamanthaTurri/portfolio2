@@ -154,8 +154,6 @@ span.michelle::after {
   background-image: url("../img/collaborators/michelle.png");
 }
 
-/* ... TODO crossfade prototype... */
-
 .crossfade {
   position: relative;
   width: 100%;
