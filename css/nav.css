@@ -101,6 +101,12 @@
       background-color: greenyellow;
     }
 
+    @media (prefers-reduced-motion: no-preference) {
+      .pip[data-status="active"] {
+        animation: pip-glow 2s ease-in-out infinite;
+      }
+    }
+
     .pip[data-status="inactive"] {
       background-color: slategray;
     }
@@ -156,5 +162,15 @@
 
   .card-body {
     display: block;
+  }
+}
+
+@keyframes pip-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(173, 255, 47, 0);
+  }
+  50% {
+    box-shadow: 0 0 6px 6px rgba(147, 245, 0, 0.5);
   }
 }
