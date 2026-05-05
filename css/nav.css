@@ -4,6 +4,12 @@
   align-self: auto;
 }
 
+a:focus-visible {
+  box-shadow: 0 0 3px 2px rgba(112, 128, 144, 0.5);
+  outline: 2px solid black;
+  outline-offset: 2px;
+}
+
 .nav-row {
   display: grid;
   grid-template-columns: repeat(auto-fill, 16.25rem);
@@ -41,6 +47,18 @@
     text-decoration: none;
     color: inherit;
   }
+
+  &:hover {
+    a.card {
+      box-shadow: 0 0 3px 2px rgba(112, 128, 144, 0.5);
+    }
+  }
+
+  &a:focus-visible {
+    box-shadow: 0 0 3px 2px rgba(112, 128, 144, 0.5);
+    outline: 2px solid black;
+    outline-offset: 2px;
+  }
 }
 
 .exp-card,
@@ -52,7 +70,7 @@
   text-align: left;
   width: 100%;
   padding: 1rem;
-  border: 1px solid slategray;
+  border: 1px solid #708090;
 
   &.ext {
     min-height: unset;
