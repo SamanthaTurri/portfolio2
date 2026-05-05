@@ -108,7 +108,7 @@
     }
 
     .pip[data-status="inactive"] {
-      background-color: slategray;
+      background-color: lightgray;
     }
   }
 
