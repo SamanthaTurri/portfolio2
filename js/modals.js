@@ -2,6 +2,12 @@ document.addEventListener("DOMContentLoaded", () => {
   // Open modal on card click
   document.querySelectorAll("[data-modal]").forEach((trigger) => {
     trigger.addEventListener("click", (event) => {
+      const modalName = trigger.dataset.modal;
+      let pipName = `pip-${modalName.replace("modal-", "")}`;
+      const pip = document.getElementById(pipName);
+      if (pip) {
+        pip.dataset.status = "inactive";
+      }
       event.preventDefault(); // prevent navigation
       const modal = document.getElementById(trigger.dataset.modal);
       if (!modal) return;
