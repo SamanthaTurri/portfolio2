@@ -27,14 +27,14 @@ footer {
   }
 
   p.title {
-    margin-top: 0.25rem;
+    margin-top: 0.75rem;
     color: transparent;
     font-weight: 700;
     font-size: max(2rem, 4dvw);
   }
 
   p.tag {
-    margin-top: 0.25rem;
+    margin-top: 0.75rem;
     color: transparent;
     font-weight: 500;
     font-size: max(1.5rem, 2dvw);
