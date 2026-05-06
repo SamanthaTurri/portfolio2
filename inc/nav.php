@@ -1,6 +1,3 @@
-
-<!-- TODO may need to add javascript to live refresh pip status between page loads -->
-
 <nav id="primary-nav" aria-label="Primary">
   <section class="nav-section">
     <div class="nav-row">
