@@ -4,27 +4,35 @@ User-agent: *
 Disallow: /
 Disallow: /img
 Disallow: /pdf
+Disallow: /24f
+
 
 User-agent: Applebot
 Disallow: /img
 Disallow: /pdf
+Disallow: /24f
 
 User-agent: bingbot
 Disallow: /img
 Disallow: /pdf
+Disallow: /24f
 
 User-agent: DuckDuckBot
 Disallow: /img
 Disallow: /pdf
+Disallow: /24f
 
 User-agent: Googlebot
 Disallow: /img
 Disallow: /pdf
+Disallow: /24f
 
 User-agent: Googlebot-Mobile
 Disallow: /img
 Disallow: /pdf
+Disallow: /24f
 
 User-agent: Slurp
 Disallow: /img
 Disallow: /pdf
+Disallow: /24f
