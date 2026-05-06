@@ -1,0 +1,30 @@
+# https://elementor.com/tools/robots-txt-generator/
+
+User-agent: *
+Disallow: /
+Disallow: /img
+Disallow: /pdf
+
+User-agent: Applebot
+Disallow: /img
+Disallow: /pdf
+
+User-agent: bingbot
+Disallow: /img
+Disallow: /pdf
+
+User-agent: DuckDuckBot
+Disallow: /img
+Disallow: /pdf
+
+User-agent: Googlebot
+Disallow: /img
+Disallow: /pdf
+
+User-agent: Googlebot-Mobile
+Disallow: /img
+Disallow: /pdf
+
+User-agent: Slurp
+Disallow: /img
+Disallow: /pdf
