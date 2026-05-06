@@ -1,5 +1,3 @@
-<?php require_once 'inc/progress.php'; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
