@@ -59,8 +59,8 @@
                 </div>
 
                 <div class="modal-item">
-                    <h3>Kabnan concept</h3>
-                    <p>My colleague <a href="https://mabebymichelle.com/" target="_blank"><span class="michelle">Michelle</span></a> suggested the concept of a Kanban board. This was meant to reference the project management work I did during our BCIT program. The result is the home page concept with rows of cards inspired by the GitHub Projects "backlog" view.</p>
+                    <h3>Kanban concept</h3>
+                    <p>My colleague <a href="https://michellecreative.ca/" target="_blank"><span class="michelle">Michelle</span></a> suggested the concept of a Kanban board. This was meant to reference the project management work I did during our BCIT program. The result is the home page concept with rows of cards inspired by the GitHub Projects "backlog" view.</p>
                 </div>
 
                 <div class="modal-item">
