@@ -2,7 +2,7 @@
     <article class="modal-content">
         <h2 id="modal-education-title">Education - BCIT</h2>
         <div id="modal-education-desc">
-            <p class="modal-intro-text">Completed the BCIT Front-end Web Developer program in April 2026.</p>
+            <p class="modal-intro-text">Completed the BCIT Front-end Web Developer program in April, 2026.</p>
             <div class="modal-item">
                 <h3>Coding</h3>
                     <ul>
@@ -14,7 +14,7 @@
             <div class="modal-item">
                 <h3>Planning + Design</h3>
                     <ul>
-                        <li>Conducted competitive research as a basis of comparison for similar projects.</li>
+                        <li>Conducted competitive research as a basis for comparison of similar projects.</li>
                         <li>Implemented a custom content editing experience with Advanced Custom Fields.</li>
                         <li>Helped turn a high-fidelity design into an Adobe XD prototype.</li>
                     </ul>
@@ -22,7 +22,7 @@
             <div class="modal-item">
                 <h3>Leadership</h3>
                     <ul>
-                        <li>Planned and lead my team's capstone project milestone meeting.</li>
+                        <li>Planned and led my team's capstone project milestone meeting.</li>
                         <li>Maintained Kanban-style project management with GitHub Projects.</li>
                         <li>Provided code reviews and technical oversight.</li>
                     </ul>

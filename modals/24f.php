@@ -41,7 +41,7 @@
                 
                 <div class="modal-item">
                     <h3>Takeaways</h3>
-                    <p>Hands on experience with designing and developing around structured data streamed from a third-party source.</p>
+                    <p>Hands-on experience with designing and developing around structured data streamed from a third-party source.</p>
                 </div>
             </details>
         </div>

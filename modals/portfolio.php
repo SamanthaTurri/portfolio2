@@ -72,16 +72,16 @@
                     <h3>Copilot</h3>
                     <p>After a nearly year-long break from AI-assisted coding, this site was developed with LLM assistance. Copilot (specifically Claude Sonnet 4.6) helped me in three distinct ways:</p>
                     <ul>
-                        <li><b>Research:</b> What base technology approaches and libraries might I use to accomplish a broad vision?</li>
+                        <li><b>Research:</b> Exploring tech stacks and libraries to use in service of the vision.</li>
                         <li><b>Boilerplate:</b> Saving time on grunt work coding, such as the Javascript that opens and closes these cards.</li>
-                        <li><b>Styling:</b> Generating and refactoring CSS based on my prompts, particularly when I didn't know how to achieve a specific outcome. (Like the animation playing above.)</li>
+                        <li><b>Styling:</b> Generating and refactoring CSS based on my prompts, particularly when I didn't know how to achieve a specific outcome (like with the animation playing above).</li>
                     </ul>
                     <p>While LLM-assistance takes some of the satisfaction out of coding, it yields better, faster results.</p>
                 </div>
                 
                 <div class="modal-item">
                     <h3>Takeaways</h3>
-                    <p>Content Management Systems and frameworks like React are necessities for complex projects. But after several months of WordPress-focused development it was truly freeing to return to core web technologies. I'm much happier with this 2.0 portfolio.</p>
+                    <p>Content Management Systems and frameworks like React are necessities for complex projects. But after several months of WordPress-focused development, it was truly freeing to return to core web technologies. I'm much happier with this 2.0 portfolio.</p>
                 </div>
             </details>
         </div>

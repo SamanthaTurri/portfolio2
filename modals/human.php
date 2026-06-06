@@ -6,8 +6,8 @@
             <div class="modal-item">
                 <h3>Values</h3>
                     <ul>
-                        <li><b>The web should be for humans.</b> It wasn’t invented for algorithms and robots. Good, human-centric websites are increasingly rare, and I want a role in making them.</li>
-                        <li><b>Meaningful work.</b> Let’s build positive stuff together. I’m eager to work with small and medium-sized businesses that contribute to the well-being of their customers, employees and communities.</li>
+                        <li><b>The web should be for humans.</b> It wasn't invented for algorithms and robots. Good, human-centric websites are increasingly rare, and I want a role in making them.</li>
+                        <li><b>Meaningful work.</b> Let's build positive stuff together. I'm eager to work with small and medium-sized businesses that contribute to the well-being of their customers, employees and communities.</li>
                         <li><b>Human-driven creativity and craft.</b> I believe in letting humans use their minds to create from their own intuition and experience. Generative AI can enhance, but not replace, knowledge work and creativity.</li>
                     </ul>
             </div>

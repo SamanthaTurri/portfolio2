@@ -41,7 +41,7 @@
     
                 <div class="modal-item">
                     <h3>Challenge</h3>
-                    <p>We wanted to minimize the burden of maintaining the same content across multiple pages. This project uses Advanced Custom Fields Pro’s features of options pages, field groups and custom blocks extensively. The client can modify key content in a streamlined, form-like experience. Nearly all of the front-end is our custom blocks placed within a skeleton block theme template.</p>
+                    <p>We wanted to minimize the burden of maintaining the same content across multiple pages. This project uses Advanced Custom Fields Pro's features of options pages, field groups and custom blocks extensively. The client can modify key content in a streamlined, form-like experience. Nearly all of the front-end is our custom blocks placed within a skeleton block theme template.</p>
                 </div>
                 
                 <div class="modal-item">
